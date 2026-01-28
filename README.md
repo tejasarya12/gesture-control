@@ -16,7 +16,8 @@ Control browser tabs, scrolling, screenshots, and fullscreen using hand gestures
 - PyAutoGUI
 
 ## Demo
-🎥 Watch demo video: [LinkedIn Demo Link Here]
+🎥 Watch demo video: 
+https://github.com/tejasarya12/gesture-control/blob/main/demo_video.mp4
 
 ## Installation
 #If git is installed exicute
