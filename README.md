@@ -20,8 +20,6 @@ Control browser tabs, scrolling, screenshots, and fullscreen using hand gestures
 https://github.com/tejasarya12/gesture-control/blob/main/demo_video.mp4
 
 ## Installation
-#If git is installed exicute
-git clone
-
+git clone https://github.com/tejasarya12/gesture-control.git
 pip install -r requirements.txt
 python main.py
