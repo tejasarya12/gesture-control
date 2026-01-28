@@ -17,9 +17,13 @@ Control browser tabs, scrolling, screenshots, and fullscreen using hand gestures
 
 ## Demo
 🎥 Watch demo video: 
+
 https://github.com/tejasarya12/gesture-control/blob/main/demo_video.mp4
 
 ## Installation
+
 git clone https://github.com/tejasarya12/gesture-control.git
+
 pip install -r requirements.txt
+
 python main.py
