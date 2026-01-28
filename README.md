@@ -18,7 +18,7 @@ Control browser tabs, scrolling, screenshots, and fullscreen using hand gestures
 ## Demo
 🎥 Watch demo video: 
 
-demo_video.mp4
+https://github.com/tejasarya12/gesture-control/blob/0af7edc7e9e8991b643e1f18464b1f5832f38d19/demo_video.mp4
 
 ## Installation
 
