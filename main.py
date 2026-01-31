@@ -44,6 +44,9 @@ last_fullscreen_time = 0
 prev_index_x = None
 tab_locked = False
 
+last_win_ctrl_time = 0
+win_ctrl_delay = 1.2
+
 print("Gesture Controller Started")
 
 
@@ -171,6 +174,17 @@ while True:
         else:
             prev_index_x = None
             tab_locked = False
+
+
+        pinky_thumb_dist = math.hypot(
+            lm.landmark[PINKY_TIP].x - lm.landmark[THUMB_TIP].x,
+            lm.landmark[PINKY_TIP].y - lm.landmark[THUMB_TIP].y
+        )
+
+        if pinky_thumb_dist < 0.035 and now - last_win_ctrl_time > win_ctrl_delay:
+            pyautogui.hotkey("win", "h")
+            gesture_text = "WIN + h"
+            last_win_ctrl_time = now
 
   
     if gesture_text:
