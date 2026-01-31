@@ -1,6 +1,6 @@
 # Gesture Controlled Browser & PDF Navigation 🖐️
 
-Control browser tabs, scrolling, screenshots, and fullscreen using hand gestures via webcam.
+Control browser tabs, scrolling, screenshots, access voice to text and fullscreen using hand gestures via webcam.
 
 ## Features
 - Scroll up 🤚🏻 / down 👎🏻 using 4-finger gestures
@@ -8,6 +8,7 @@ Control browser tabs, scrolling, screenshots, and fullscreen using hand gestures
 - Wide open hand 🖐🏻 → Fullscreen
 - Again Wide open hand 🖐🏻 → Exit fullscreen
 - Browser tab switching via swipe gesture from opening index and thumb finger only where sudden left swipe of index 👈🏻 switches browser tab present at left of current tab and vice versa for right swipe👉🏻
+- Little fingertip (Pinky fingertip) touching thumb tip → To toggle on/off voice to text so you can write email,doc,prompts,etc from your voice.
 
 ## Tech Stack
 - Python
